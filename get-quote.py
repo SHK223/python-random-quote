@@ -8,8 +8,8 @@ def smth():
   f.close()
   last = 13
   rnd = random.randint(0, last)
-
-  print(quotes[rnd])
+  for i in range(rnd):
+    print(quotes[i], end=' ')
 
 if __name__== "__main__":
   smth()
